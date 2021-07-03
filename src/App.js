@@ -1,10 +1,5 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
-import check from "../src/assets/check.gif";
-import { FullScreen, useFullScreenHandle } from "react-full-screen";
-import { Dots } from "react-activity";
-import Widget from "./assets/main";
-
 import { Bounce, Sentry } from "react-activity";
 
 function App() {
