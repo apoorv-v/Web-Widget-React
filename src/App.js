@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
-import { Bounce, Sentry } from "react-activity";
+import { Bounce } from "react-activity";
 
 function App() {
   const [loading, setLoading] = useState(true);
