@@ -1,7 +1,138 @@
 .App {
-  text-align: center;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+.Button {
+  background-color: #ecdde550;
+  border-radius: 50px;
+  min-height: 40px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(219, 206, 25);
+  
+  animation: fadeIn 700ms;
+  -webkit-animation: fadeIn 700ms;
+  -moz-animation: fadeIn 700ms;
+  -o-animation: fadeIn 700ms;
+  -ms-animation: fadeIn 700ms;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  cursor: pointer;
+  background-color: #b84a29e7;
+  border-radius: 100px;
+  min-height: 50px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(218, 199, 196);
+  text-transform: uppercase;
+  
+  animation: fadeIn 700ms;
+  -webkit-animation: fadeIn 700ms;
+  -moz-animation: fadeIn 700ms;
+  -o-animation: fadeIn 700ms;
+  -ms-animation: fadeIn 700ms;
+}
+.title{
+  color: rgb(55, 60, 61);
+  font-size: 150%;
+  
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+.buttonss{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+
+}
+.detailsText{
+  color: rgb(48, 44, 32);
+  font-weight: 600;
+  font-style: oblique;
+  
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.content2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.photo {
+  height: 100;
+  width: 100;
+}
+.custom-file-upload2 {
+  cursor: pointer;
+  background-color: #30eb29dc;
+  border-radius: 100px;
+
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: rgba(46, 34, 34, 0.877);
+  text-transform: uppercase;
+  
+  animation: fadeIn 700ms;
+  -webkit-animation: fadeIn 700ms;
+  -moz-animation: fadeIn 700ms;
+  -o-animation: fadeIn 700ms;
+  -ms-animation: fadeIn 700ms;
+}
+.reload {
+  background-color: #df1c1c6e;
+  color: rgb(242, 250, 242);
+}
+@keyframes fadeIn {
+  0% {opacity:0.3;}
+  100% {opacity:1;}
 }
 
+@-moz-keyframes fadeIn {
+  0% {opacity:0.3;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0.3;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0.3;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0.3;}
+  100% {opacity:1;}
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
